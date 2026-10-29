@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -11,12 +12,12 @@
 
     <header>
         <nav>
-            <class="navigation-tabs">
+            <div class="navigation-tabs">
             <!--Each button represents a different view in the Quizz App-->
             <button id="study-cards-tabs"
             class="navigation-button">study cards</button>
             <button id="all-question-tabs" class="navigation-button active-tabs">All Questions</button> 
-            <button id="add questions-tabs" class="navigation-button">Add Questions</button>
+            <button id="add-questions-tabs" class="navigation-button">Add Questions</button>
         </nav>
     </header>
 
@@ -28,9 +29,9 @@
                 <class="description-text"><Every Question in the app>
              </p>
              <!--An ordered list can use because this is a simple list of questions-->
-             <ul id="all-questions-list" class="questions container"
+             <ul id="all-questions-list" class="questions container">
 
-             </li>What is the full form of HTML?</li> 
+             <li>What is the full form of HTML?</li> 
              <li>How do you know about Semantic HTML?</li>
              <li>What does CSS stands for?</li>
              <li>What are the extensions of HTML and CSS?</li>
@@ -47,5 +48,7 @@
     <footer>
         Written By : Sanga Barrai
     </footer>
+
+       <script src="script.js"></script>
 </body>
 </html>
